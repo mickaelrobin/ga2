@@ -133,7 +133,7 @@ def print_results(results):
 def main():
     # Define the auth scopes to request.
     scope = 'https://www.googleapis.com/auth/analytics.readonly'
-    key_file_location = 'client_secrets.json'
+    key_file_location = '/home/mickael_robin/mickael/GA-API/client_secrets.json'
 
     # Authenticate and construct service.
     service = get_service(
